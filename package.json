@@ -1,0 +1,16 @@
+{
+  "name": "factura-whatsapp",
+  "version": "1.0.0",
+  "description": "Recibe facturas por WhatsApp (Twilio) y extrae datos con la API de Claude",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
+    "twilio": "^5.3.0"
+  }
+}
